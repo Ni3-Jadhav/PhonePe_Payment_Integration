@@ -26,5 +26,5 @@ A Node.js application that integrates with PhonePe sandbox API to handle payment
 
  Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/payment-integration-phonepe.git
+   git clone https://github.com/Ni3-Jadhav/PhonePe_Payment_Integration.git
  
