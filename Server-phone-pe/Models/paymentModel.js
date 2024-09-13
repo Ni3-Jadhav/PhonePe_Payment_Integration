@@ -11,6 +11,8 @@ const paymentSchema = new mongoose.Schema({
 
     transactionID: String,
 
+    merchantUserId : String,
+
     paymentStatus: String,
 
     paymentResponse: Object,

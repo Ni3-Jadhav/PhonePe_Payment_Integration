@@ -59,6 +59,7 @@ exports.payOrder = async ( req , res ) => {
             userName: req.body.userName,
             mobile: req.body.userMo_No,
             product: req.body.selectProduct,
+            merchantUserId : req.body.MID,
             amount: req.body.payAmount,
             transactionID: merchantTransactionId,
             paymentStatus: response.data.success ? 'Success' : 'Failure',
